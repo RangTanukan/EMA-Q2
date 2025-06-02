@@ -70,9 +70,24 @@ label {
 }
 
 input, textarea, select {
-  width: 65%;
+  width: 200px;
   padding: 0.5em;
   font-size: 1em;
+}
+
+.message-container {
+  margin-bottom: 1.5em;
+}
+
+.message-container label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.message-container textarea {
+  width: 100%;
+  min-height: 150px;
 }
 
 button {
